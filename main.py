@@ -2,7 +2,6 @@ import telebot
 import AI
 import test1
 
-
 bot = telebot.TeleBot('7007745287:AAFFnApeegEuyE8NNBekh9GzAKvuSNbI5M0')
 
 @bot.message_handler(commands=['start'])
@@ -24,6 +23,5 @@ def handle_photo(message):
     bot.reply_to(message, 'Ответ yolo.')
     file = open('output.jpg', 'rb')
     bot.send_photo(message.chat.id, file)
-
 
 bot.polling()

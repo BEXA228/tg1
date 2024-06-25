@@ -1,4 +1,4 @@
-import subprocess
+mport subprocess
 
 # Команда PowerShell, которую нужно выполнить
 command = "conda activate yolo8"
