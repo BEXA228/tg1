@@ -2,7 +2,7 @@ import telebot
 import AI
 import test1
 
-bot = telebot.TeleBot('7383394195:AAHG6dGM-qNGolAQS3YBFqcR5Iq4T2L-Syk')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def main(message):
